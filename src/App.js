@@ -1,9 +1,14 @@
 import './App.css';
 import { NavBar } from "./components/NavBar"
-const App = () => {
+import { AboutMe } from "./components/AboutMe"
+
+const App = (props) => {
   return (
     <div className="container blue">
       <NavBar/>
+        <section>
+          <AboutMe/>
+        </section>
     </div>
   );
 }
