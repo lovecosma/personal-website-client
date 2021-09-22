@@ -7,7 +7,7 @@ export const NavBar = (props) => {
         <div>
            <nav className="nav">
                 <div className="nav-wrapper">
-                    <a href="/" className="brand-logo"></a>
+                    <a href="/" className="right brand-logo">Hello</a>
                     <ul id="nav-mobile" className="left hide-on-med-and-down">
                         <li><a href="sass.html">About Me</a></li>
                         <li><a href="badges.html">My Projects</a></li>
