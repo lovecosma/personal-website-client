@@ -6,14 +6,21 @@
   .upper-about-me{
     display: flex;
     padding: 20px;
-    margin-top: 100px;  
     justify-content: space-between;
   }
 
   .us-container{
     margin-left: 50px;
+    margin-top: 25px;
 }
 
 .about-me-text{
   margin-left: 50px;
+  font-size: larger;
+}
+.about-me-smaller-photos{
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
