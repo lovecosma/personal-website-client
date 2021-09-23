@@ -13,7 +13,7 @@ export const Intro = (props) => {
         <section className="intro">
                 <div className="upper-intro">
                     <div>
-                        <h1>Hello wanderer,</h1>
+                        <h1>Hello,</h1>
                         <h2>My name is Matthew Williams</h2>
                         <h3>I'm a software engineer based in Denver, CO</h3>
                         <h4>welcome to my online portfolio.</h4>
