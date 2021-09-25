@@ -6,6 +6,9 @@ export const NavBar = (props) => {
     return (
         <div>
            <nav className="nav">
+               <div>
+                   
+               </div>
                 <div className="nav-wrapper">
                     <a href="/" className="right brand-logo">Hello</a>
                     <ul id="nav-mobile" className="left hide-on-med-and-down">
