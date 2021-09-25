@@ -19,7 +19,7 @@ export const AboutMe = (props) => {
                     </div>
                     <div className='about-me-text'>
                         <p>
-                            
+
                         </p>
                         <p>
                             My story starts on Wiesbaden, Hesse, Germany. My father was stationed there in the military at the time.
@@ -32,7 +32,7 @@ export const AboutMe = (props) => {
                             I had a feeling that I might enjoy working with computers, and had always wanted to. I took a chance and switched my major to Experimental Music with a minor in Digital Media Programming for Art and Engineering (EMDM) and graduated in 2017. 
                         </p>
                         <p>
-                            In April of 2020, I relocated to Fort Collins, Co. Embracing the spirit of change, I also enrolled in Flatiron School, a coding bootcamp which offered a program for training in fullstack web devlopment. I was challenged to learn new technology and dive even deeper into familiar technology.
+                            In April of 2020, I relocated to Fort Collins, CO. Embracing the spirit of change, I also enrolled in Flatiron School, a coding bootcamp which offered a program for training in fullstack web devlopment. I was challenged to learn new technology and dive even deeper into familiar technology.
                             I immediately fell in love with full-stack web devlopment and by October of 2020, I was ready to enter the job market. I start working part-time as a Technical Coach with Flatiron School just before graduating at the end of October. 
                             In November of 2020, I received a job offer from Infosys as an Associate Software Engineer. However, at the same time, I was asked to join Flatiron full-time as a Cohort Lead.
                         </p>
