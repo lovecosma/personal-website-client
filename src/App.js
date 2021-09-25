@@ -6,9 +6,6 @@ import { AboutMe } from "./components/AboutMe"
 const App = (props) => {
   return (
     <div className="container white-text">
-      <div>
-        <h1>Hello</h1>
-      </div>
         <NavBar/>
         <Intro/>
         <AboutMe/>
