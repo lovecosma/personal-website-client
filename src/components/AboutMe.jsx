@@ -19,6 +19,9 @@ export const AboutMe = (props) => {
                     </div>
                     <div className='about-me-text'>
                         <p>
+                            
+                        </p>
+                        <p>
                             My story starts on Wiesbaden, Hesse, Germany. My father was stationed there in the military at the time.
                             After leaving Germany at 2 years old, my family relocated back my parents' hometown of New Orleans, LA in the US.
                             Over the course of the next 16 years, I would live in places from Louisiana, to Virginia, to Georgia, to Hawaii.
