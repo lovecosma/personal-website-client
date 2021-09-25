@@ -3,6 +3,8 @@ import "./AboutMe.css"
 import us from "../us.JPG"
 import meGuitar from "../me-guitar.jpeg"
 import meSamara from "../me-samara.jpeg"
+import sa from "../sa.png"
+import bone from "../bone.png"
 export const AboutMe = (props) => {
     return (
         <section className="about-me">
@@ -27,13 +29,28 @@ export const AboutMe = (props) => {
                                 At and early age, I developed an interest for music which ignited into a 
                                 full passion as I grew older. This passionled me to LSU's brand new Experimental Music and Digital
                                 Media Programming for Art and Engineering program. It was here that I cultivated 
-                                a taste for coding a problem solving. My team and I exhibited a game, "Synth Arena", we created together using Unity (video game engine) and github at Baton Rouge's Red Stick Festival. I won an award for the best music and sound design for a production entitled "The Bone".
-                                Overal[, I learned the value of open communication and preserverence in the face of complex goals as a team.
-                            </p>
+                                a taste for coding a problem solving. My team and I exhibited a game, "Synth Arena", 
+                                we created together using Unity (video game engine) and github at Baton Rouge's 
+                                Red Stick Festival. I won an award for the best music and sound design for a production entitled "The Bone".
+                                Overall, I learned the value of open communication and preserverence in the face of complex goals as a team.
+                            </p> 
                        </div>
-                       <div>
-
-                       </div>
+                        <div style={{
+                            width: "300px",
+                            height: "200px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${sa})`
+                        }}/>
+                        <div style={{
+                            width: "300px",
+                            height: "200px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${bone})`
+                        }}/>           
                     </div>
                 </div>
         </section>
