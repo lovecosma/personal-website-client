@@ -24,3 +24,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+.lsu-project-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px
+}
+.lsu-projects{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
