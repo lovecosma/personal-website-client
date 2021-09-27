@@ -11,11 +11,11 @@ import bloodflow from "../bloodflow.jpeg"
 import eredita from "../eredita.jpeg"
 export const AboutMe = (props) => {
     return (
-        <div>
+        <div className="about-me-container">
         <section className="about-me">
-                    <div className="center about-me-header">
-                        <h2>About Me</h2>
-                    </div>
+            <div className="center about-me-header">
+                <h2>About Me</h2>
+            </div>
                 <div className="upper-about-me">
                     <div className="us-container">
                         <img className="us-photo" src={us} alt="Matthew's family" width="425px" height="550px"/>
@@ -63,13 +63,15 @@ export const AboutMe = (props) => {
                                 }}/> 
                            </div>
                            <div>
-
                            </div>
                         </div>          
+                        <div className="white-text center" style={{width: "100%"}}>
+                            <a href="https://soundcloud.com/user-184171124/sets" id="emdm-banner" >Check out more music from EMDM here</a>
+                        </div>
                     </div>
                 </div>
         </section>
-        <section className="about-me" style={{marginTop: "125px", padding: "15px"}}>
+        <section className="about-me-shorter" style={{marginTop: "125px", padding: "15px"}}>
             <div className="lower-about-me">
                <div className="about-me-text-2">
                    <h3>Team work and communication are universal tools.</h3>
@@ -85,12 +87,13 @@ export const AboutMe = (props) => {
                 </div> 
                 <div className="about-me-pictures-2">
                     <div className="center" style={{padding: "40px"}}>
+                        
                         <div style={{
                             width: "100%",
                             height: "200px",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
+                            backgroundSize: "contain",
                             backgroundImage: `url(${bugsquash})`
                         }}/> 
                         <br/>
@@ -109,7 +112,7 @@ export const AboutMe = (props) => {
             </div>
             <br></br>
         </section>
-        <section className="about-me">
+        <section className="about-me-shorter">
         <div className="about-me-text-3">
                 <div className="love-cosma-pictures">
                     <div className="music-video">
