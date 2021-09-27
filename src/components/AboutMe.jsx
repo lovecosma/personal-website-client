@@ -65,15 +65,32 @@ export const AboutMe = (props) => {
                     </div>
                 </div>
         </section>
-        <section className="about-me" style={{marginTop: "125px"}}>
+        <section className="about-me" style={{marginTop: "125px", padding: "15px"}}>
             <div className="lower-about-me">
                <div className="about-me-text-2">
-                   <h2>Continued</h2>
-                   <p>With some text</p>
+                   <h3>Team work and communication are universal tools.</h3>
+                   <p>After graduating college in 2017, I still wasn't entirely sure what I wanted to be when I grew up. I moved back to Georgia where my immediate family was located and I 
+                    I began customer-facing sales roles at Best Buy. I started as a part-time computer sales consultant. I collaborated over seven different departments to deliver a world-class
+                    to every single one of my customers. I was honored for having the highest revenue in the district during Q3 of the fiscal year of 2017-2018. My NPS rating averaged above 90% 
+                    throughout my careerat Best Buy spanning 3 promotions. 
+                   </p>
+                   <p>
+                    I enjoyed the work I did with my team at Best Buy, but I was always coding in my free time. I develped a few fun programs using p5.js
+                    like a simple bug squashing game and experimental color wheel application. These apps dealt with DOM manipulation, animating on a canvas, and Object Oriented Javascript. using data sctructures. 
+                    At this time, I also began practicing more advanced topics like algorithms, data structures and system design. I knew I wanted to make use of my skills as developer in my work environment.
+                   </p>
                 </div> 
-                <div className="about-me-pictures-2 center">
-                    <h2>Hello</h2>
-
+                <div className="about-me-pictures-2">
+                <div style={{height: "100%"}}>
+                    
+                </div>
+                    <h3>By early 2019, life seemed to be rising in intensity.</h3>
+                    <p>
+                     I was now happily married with a young daughter. My communication with so many residents of Savannah, GA throuogh Best Buy really helped me start a career as an artist and musician. 
+                     During this time I performed and produced 2 tracks as my artist persona, Love Cosma. I appeared live on the local radio, performed on the first Friday of every month for a local business as well as at other venues around town, and I was selling 
+                     my art graphic art prints for commerical enterprises and also as clothing through an online retailer. However, although I adored flexing my creative muscle and gaining some success from it, 
+                     I wanted a career that I would still love to do, but would be more stable and reliable for my family's security. In April of 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program                 
+                   </p>
                 </div>
             </div>
 
