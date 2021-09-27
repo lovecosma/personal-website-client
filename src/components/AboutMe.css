@@ -45,13 +45,28 @@
   justify-content: center;
   width: 50%;
   font-size: larger;
+  padding: 10px;
 }
-
 .about-me-pictures-2{
   justify-content: flex-end;
   width: 50%;
+  
+}
+
+.about-me-text-3{
+  display: flex;
+  justify-content: space-between;
 }
 .love-cosma-text{
+  justify-content: flex-end;
   font-size: larger;
-  margin-left: 25px;
+  width: 50%;
+
+}
+.love-cosma-pictures{
+  justify-content: flex-start;
+  width: 50%;
+}
+.love-cosma-text-container{
+  padding-left: 50px;
 }

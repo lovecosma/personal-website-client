@@ -5,6 +5,9 @@ import meGuitar from "../me-guitar.jpeg"
 import grad from "../LSUgraduation.jpeg"
 import sa from "../sa.png"
 import bone from "../bone.png"
+import bugsquash from "../bugsquash.png"
+import colorwheel from "../colorwheel.png"
+
 export const AboutMe = (props) => {
     return (
         <div>
@@ -80,21 +83,44 @@ export const AboutMe = (props) => {
                    </p>
                 </div> 
                 <div className="about-me-pictures-2">
-                    <div style={{height: "95%"}}>
-                        
-                    </div>
-                    <div className="love-cosma-text">
-                        <h3>Hardwork, dedication, and optimism will bring you places.</h3>
-                        <p>
-                        My communication with so many residents of Savannah, GA throuogh Best Buy really helped me start a career as an artist and musician. 
-                        During this time I performed and produced 2 tracks as my artist persona, Love Cosma. I appeared live on the local radio, gigged for venues all around town, and I was selling 
-                        my art graphic art prints for commerical enterprises and also as clothing through an online retailer. I adored flexing my creative muscle and gaining some success from it, however, 
-                        I wanted a career that I would still love to do, but would be more stable and reliable for my family's security. In April of 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program                 
-                    </p>
+                    <div className="center" style={{padding: "40px"}}>
+                        <div style={{
+                            width: "100%",
+                            height: "200px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${bugsquash})`
+                        }}/> 
+                        <br/>
+                        <br/>
+                        <div style={{
+                            width: "100%",
+                            height: "200px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "contain",
+                            backgroundImage: `url(${colorwheel})`
+                        }}/>  
                     </div>
                 </div>
             </div>
+            <div className="about-me-text-3">
+                <div className="love-cosma-pictures center">
 
+                </div>
+                <div className="love-cosma-text">
+                   <div className='love-cosma-text-container'>
+                    <h3>Hardwork, dedication, and optimism will bring you places.</h3>
+                        <p>
+                            My communication with so many residents of Savannah, GA throuogh Best Buy really helped me start a career as an artist and musician. 
+                            During this time I performed and produced 2 tracks as my artist persona, Love Cosma. I appeared live on the local radio, gigged for venues all around town, and I was selling 
+                            my art graphic art prints for commerical enterprises and also as clothing through an online retailer. I adored flexing my creative muscle and gaining some success from it, however, 
+                            I wanted a career that I would still love to do, but would be more stable and reliable for my family's security. In April of 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program                 
+                        </p>
+                   </div>
+                </div>
+            </div>
         </section>
     </div>
     )
