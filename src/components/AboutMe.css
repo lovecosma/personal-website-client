@@ -1,5 +1,5 @@
 .about-me{
-    height: 85vh;
+    height: 95vh;
     background-color: black;
   }
   .about-me-shorter{
@@ -22,6 +22,9 @@
   width: 100%;
   height: 50px;
   font-size: x-large;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
 }
 
   .us-container{
@@ -67,6 +70,7 @@
   width: 50%;
   margin-top: 50px;
   vertical-align: middle;
+  margin-top: 100px
 }
 
 .about-me-text-3{

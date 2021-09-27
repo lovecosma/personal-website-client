@@ -10,6 +10,10 @@ import colorwheel from "../colorwheel.png"
 import bloodflow from "../bloodflow.jpeg"
 import eredita from "../eredita.jpeg"
 export const AboutMe = (props) => {
+    window.addEventListener("scroll", () => {
+        document.getElementById("color-wheel").style.transform = "rotate("+window.pageYOffset+"deg)"
+        console.log("luaching");
+    })
     return (
         <div className="about-me-container">
         <section className="about-me">
@@ -19,6 +23,7 @@ export const AboutMe = (props) => {
                 <div className="upper-about-me">
                     <div className="us-container">
                         <img className="us-photo" src={us} alt="Matthew's family" width="425px" height="550px"/>
+                        <br></br>
                         <div className="about-me-smaller-photos">
                             <img src={meGuitar} alt="Matthew on guitar" width="200px" height="200x"/>
                             <img src={grad} alt="Matthew with Samara" width="200px" height="200x"/>
@@ -64,9 +69,12 @@ export const AboutMe = (props) => {
                            </div>
                            <div>
                            </div>
-                        </div>          
+                        </div>  
+                        <br></br>        
                         <div className="white-text center" style={{width: "100%"}}>
-                            <a href="https://soundcloud.com/user-184171124/sets" id="emdm-banner" >Check out more music from EMDM here</a>
+                            <form action="https://soundcloud.com/user-184171124/sets" >
+                                <button type="submit" id="emdm-banner" >Check out more music from EMDM here</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -90,33 +98,34 @@ export const AboutMe = (props) => {
                         
                         <div style={{
                             width: "100%",
-                            height: "200px",
+                            height: "250px",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
-                            backgroundSize: "contain",
-                            backgroundImage: `url(${bugsquash})`
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${bugsquash})`,
+                            boxShadow: "0 0 8px 8px black inset"
                         }}/> 
                         <br/>
-                        <br/>
-                        <br/>
-                        <div style={{
-                            width: "100%",
+                        <div id='color-wheel' style={{
+                            width: "200px",
                             height: "200px",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
-                            backgroundSize: "contain",
-                            backgroundImage: `url(${colorwheel})`
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${colorwheel})`,
+                            marginLeft: "150px"
                         }}/>  
                     </div>
                 </div>
             </div>
             <br></br>
         </section>
+        <br></br>
         <section className="about-me-shorter">
         <div className="about-me-text-3">
                 <div className="love-cosma-pictures">
                     <div className="music-video">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="art-links">
                     <div style={{
@@ -128,7 +137,7 @@ export const AboutMe = (props) => {
                             backgroundImage: `url(${bloodflow})`
                         }}/> 
                     
-                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div style={{
                             width: "125px",
                             height: "125px",
