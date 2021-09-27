@@ -35,3 +35,16 @@
   justify-content: space-between;
   width: 100%;
 }
+
+.lower-about-me{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-text-2{
+  justify-content: flex-start;
+}
+
+.about-me-pictures-2{
+  justify-content: flex-end;
+}
