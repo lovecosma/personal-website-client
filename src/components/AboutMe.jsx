@@ -70,10 +70,9 @@ export const AboutMe = (props) => {
                            <div>
                            </div>
                         </div>  
-                        <br></br>        
                         <div className="white-text center" style={{width: "100%"}}>
                             <form action="https://soundcloud.com/user-184171124/sets" >
-                                <button type="submit" id="emdm-banner" >Check out more music from EMDM here</button>
+                                <button type="submit" id="emdm-banner" >My Music from EMDM</button>
                             </form>
                         </div>
                     </div>
@@ -113,7 +112,8 @@ export const AboutMe = (props) => {
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             backgroundImage: `url(${colorwheel})`,
-                            marginLeft: "150px"
+                            marginLeft: "150px",
+                            borderRadius: "35px"
                         }}/>  
                     </div>
                 </div>
