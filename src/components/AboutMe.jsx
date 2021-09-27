@@ -7,7 +7,8 @@ import sa from "../sa.png"
 import bone from "../bone.png"
 import bugsquash from "../bugsquash.png"
 import colorwheel from "../colorwheel.png"
-
+import bloodflow from "../bloodflow.jpeg"
+import eredita from "../eredita.jpeg"
 export const AboutMe = (props) => {
     return (
         <div>
@@ -94,6 +95,7 @@ export const AboutMe = (props) => {
                         }}/> 
                         <br/>
                         <br/>
+                        <br/>
                         <div style={{
                             width: "100%",
                             height: "200px",
@@ -105,9 +107,34 @@ export const AboutMe = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="about-me-text-3">
-                <div className="love-cosma-pictures center">
-
+            <br></br>
+        </section>
+        <section className="about-me">
+        <div className="about-me-text-3">
+                <div className="love-cosma-pictures">
+                    <div className="music-video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className="art-links">
+                    <div style={{
+                            width: "125px",
+                            height: "125px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${bloodflow})`
+                        }}/> 
+                    
+                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div style={{
+                            width: "125px",
+                            height: "125px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            backgroundImage: `url(${eredita})`
+                        }}/> 
+                    </div>
                 </div>
                 <div className="love-cosma-text">
                    <div className='love-cosma-text-container'>
