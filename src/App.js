@@ -23,7 +23,7 @@ const App = (props) => {
         ) 
     } else if(isTabletOrMobile){
           return(
-            <div style={{padding: "15px"}}>
+            <div  className="container white-text" style={{padding: "15px"}}>
               <p>Responsive Design in progress. Please visit on desktop for now.</p>
               <p style={{fontSize: "x-large"}} >Check out my repo <a href="https://github.com/lovecosma/personal-website-client" alt="repo" style={{fontSize: "x-large"}}>here</a></p>
               <p>Updated daily.</p>
