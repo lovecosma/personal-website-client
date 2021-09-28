@@ -27,6 +27,7 @@ const App = (props) => {
               <p>Responsive Design in progress. Please visit on desktop for now.</p>
               <p style={{fontSize: "x-large"}} >Check out my repo <a href="https://github.com/lovecosma/personal-website-client" alt="repo" style={{fontSize: "x-large"}}>here</a></p>
               <p>Updated daily.</p>
+              <iframe src="https://giphy.com/embed/TOhTGM1xJ77bZwnNCy" width="200" height="200" frameBorder="0" class="giphy-embed"></iframe><p><a href="https://giphy.com/gifs/wirdesign-typography-wip-workinprogress-TOhTGM1xJ77bZwnNCy">via GIPHY</a></p>
             </div>
           )
     }
