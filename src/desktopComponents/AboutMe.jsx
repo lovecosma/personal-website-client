@@ -1,12 +1,12 @@
 import React from 'react'
 import "./AboutMe.css"
-import me from "../me.jpeg"
-import grad from "../LSUgraduation.jpeg"
-import bugsquash from "../bugsquash.png"
-import colorwheel from "../colorwheel.png"
-import bloodflow from "../bloodflow.jpeg"
-import eredita from "../eredita.jpeg"
-import us from "../us.JPG"
+import me from "../images/me.jpeg"
+import grad from "../images/LSUgraduation.jpeg"
+import bugsquash from "../images/bugsquash.png"
+import colorwheel from "../images/colorwheel.png"
+import bloodflow from "../images/bloodflow.jpeg"
+import eredita from "../images/eredita.jpeg"
+import us from "../images/us.JPG"
 
 export const AboutMe = ({history}) => {
     window.addEventListener("scroll", () => {

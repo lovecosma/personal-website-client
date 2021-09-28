@@ -1,12 +1,12 @@
 import React from 'react'
 import './Intro.css';
-import me from "../me.jpg"
-import reactLogo from "../react-logo-trans.png"
-import railsLogo from "../rails-logo.png"
-import jsLogo from "../js-logo.png"
-import pgLogo from "../pg-logo.png"
-import awsLogo from "../aws-logo.png"
-import htmlLogo from "../html-logo.png"
+import me from "../images/me.jpg"
+import reactLogo from "../images/react-logo-trans.png"
+import railsLogo from "../images/rails-logo.png"
+import jsLogo from "../images/js-logo.png"
+import pgLogo from "../images/pg-logo.png"
+import awsLogo from "../images/aws-logo.png"
+import htmlLogo from "../images/html-logo.png"
 
 export const Intro = (props) => {
     return (
@@ -28,12 +28,12 @@ export const Intro = (props) => {
                 <br></br>
                 <h4 className="center key-tech">Key technology</h4>
                 <div className="lower-intro">
-                    <img src={pgLogo} alt="pg logo" width="150px" height="150px"/>
+                    <img src={pgLogo} alt="pg logo" width="125px" height="125px"/>
                     <img src={railsLogo} alt="rails logo" width="175px" height="175px"/>
-                    <img src={reactLogo} alt="react logo" width="150px" height="150px"/>
-                    <img src={jsLogo} alt="javascript logo" width="150px" height="150px"/>
-                    <img src={htmlLogo} alt="html logo" width="150px" height="150px"/>
-                    <img src={awsLogo} alt="aws logo" width="150px" height="150px"/>
+                    <img src={reactLogo} alt="react logo" width="125px" height="125px"/>
+                    <img src={jsLogo} alt="javascript logo" width="125px" height="125px"/>
+                    <img src={htmlLogo} alt="html logo" width="125px" height="125px"/>
+                    <img src={awsLogo} alt="aws logo" width="125px" height="125px"/>
                 </div>
         </section>
     )
