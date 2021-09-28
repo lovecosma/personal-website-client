@@ -2,6 +2,7 @@ import './App.css';
 
 import { useMediaQuery } from "react-responsive"
 import {DesktopRouter} from "./desktopComponents/DesktopRouter"
+import { MobileTabletRouter } from './mobileTabletComponents/MobileTabletRouter';
 const App = (props) => {
 
   const isDesktopOrLaptop = useMediaQuery({
@@ -23,14 +24,9 @@ const App = (props) => {
         ) 
     } else if(isTabletOrMobile){
           return(
-            <div  className="container white-text" style={{padding: "15px"}}>
-                <p>Responsive Design in progress. Please visit on desktop for now.</p>
-                <p style={{fontSize: "x-large"}} >Check out my repo <a href="https://github.com/lovecosma/personal-website-client" alt="repo" style={{fontSize: "x-large"}}>here</a></p>
-                <p>Updated daily.</p>
-              <div className="center">
-                <a href="https://giphy.com/gifs/wirdesign-typography-wip-workinprogress-TOhTGM1xJ77bZwnNCy"><iframe src="https://giphy.com/embed/TOhTGM1xJ77bZwnNCy" width="200" height="200" frameBorder="0" class="giphy-embed"></iframe></a>
+              <div>
+                <MobileTabletRouter/>
               </div>
-            </div>
           )
     }
 }
