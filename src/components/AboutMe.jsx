@@ -51,8 +51,8 @@ export const AboutMe = ({history}) => {
                                 Media Programming for Art and Engineering program. It was here that I cultivated 
                                 a taste for coding a problem solving. I learned the basics of object oriented programming, embedded hardware, and experimental sound synthesis.
                                 In 2017, my team exhibited a game, "Synth Arena", we created together using Unity (video game engine) and github at Baton Rouge's 
-                                Red Stick Festival. I was also awarded Best Music and Sound Design by LSU's Digital Art and Design Association for a production entitled "The Bone".
-                                Through these projects, I learned that anything is possible with open communication and preserverence in the face of complex goals as a team.
+                                Red Stick Festival. I was also awarded Best Music and Sound Design by LSU's Digital Art and Design Association for a production entitled "The Bone" for LSU's 72-hr Animation Jam of 2017.
+                                Through these projects, I learned that anything is possible with team work and preserverence in the face of complex goals.
                             </p> 
                        </div>
                        <div className="lsu-project-container">
@@ -165,7 +165,7 @@ export const AboutMe = ({history}) => {
                         <p>
                             Networking with the residents of Savannah, GA through Best Buy helped me to start a career as a local artist and musician at the beginning of 2019. 
                             During this time I performed and produced 2 tracks as my artist's persona, Love Cosma. I appeared live on the local radio, gigged for venues all around town, and I was selling 
-                            my art graphic art prints to commerical enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 
+                            my graphic art prints to commerical enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 
                             I wanted a career that I would still love to do, but that would be more stable and reliable for my family's security. In April of 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program with the intention of breaking into the technology industry.                 
                         </p>
                    </div>
