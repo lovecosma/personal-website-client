@@ -2,7 +2,7 @@ import React from 'react'
 import "materialize-css"
 import "./NavBar.css"
 import M from "materialize-css"
-import menuIcon from "../images/menu-icon.png"
+import menuIcon from "../images/menu-icon3.png"
 import { NavLink } from "react-router-dom"
 export class NavBar extends React.Component{
 
@@ -17,7 +17,7 @@ export class NavBar extends React.Component{
         return (
             <div>
                 <div >
-                    <nav className="black" style={{padding: "15px"}}><a href="/" className="nav-container"> <img data-target="slide-out" className="sidenav-trigger" src={menuIcon} width="7%" height="3%" alt="menu"/></a></nav>  
+                    <nav className="black" style={{padding: "15px"}}><a href="/" className="nav-container"> <img data-target="slide-out" className="sidenav-trigger" src={menuIcon} width="50px" height="10px" alt="menu"/></a></nav>  
                 </div>
                 <div>
                 <ul id="slide-out" className="sidenav black">
