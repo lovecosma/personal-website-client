@@ -7,7 +7,8 @@ import { NavLink } from "react-router-dom"
 export class NavBar extends React.Component{
 
     componentDidMount(){
-            let elems = document.querySelectorAll('.sidenav');
+        let elems = document.querySelectorAll('.sidenav');
+        console.log(elems);
             M.Sidenav.init(elems, {});
     }
 
@@ -15,8 +16,8 @@ export class NavBar extends React.Component{
     render(){
         return (
             <div>
-                <div className="nav-container">
-                    <nav className="black"> <ul><li><a href="/" data-target="slide-out" className="sidenav-trigger"><i className="material-icons"><img src={menuIcon} width="40px" height="30px" alt="menu"/></i></a></li></ul> </nav>
+                <div >
+                    <nav className="nav-container black"><a href="/" className="nav-container"> <img data-target="slide-out" className="sidenav-trigger" src={menuIcon} alt="menu"/></a></nav>  
                 </div>
                 <div>
                 <ul id="slide-out" className="sidenav black">
@@ -35,3 +36,4 @@ export class NavBar extends React.Component{
         )
     }
 }
+//Nothing

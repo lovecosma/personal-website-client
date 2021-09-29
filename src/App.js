@@ -6,7 +6,7 @@ import { MobileTabletRouter } from './mobileTabletComponents/MobileTabletRouter'
 const App = (props) => {
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
+    query: '(min-width: 1225px)'
   })
 
   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
@@ -24,11 +24,12 @@ const App = (props) => {
         ) 
     } else if(isTabletOrMobile){
           return(
-              <div>
-                <MobileTabletRouter/>
-              </div>
+            <div>
+              <MobileTabletRouter/>
+            </div>
           )
     } else {
+      console.log("here");
       return <div></div>
     }
 }

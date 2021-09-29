@@ -20,17 +20,19 @@ class Intro extends React.Component{
     
     render(){
         return (
-            <section className="mobile-intro-section center">
+            <section className="mobile-intro-section">
+                        <div className="intro-container center">
                         <div>
-                            <h4>Hello,</h4>
-                            <h4>My name is Matthew Williams</h4>
-                            <h4>I'm a software engineer based in Denver, CO</h4>
+                            <h1>Hello,</h1>
+                            <h2>My name is Matthew Williams</h2>
+                            <h3>I'm a software engineer based in Denver, CO</h3>
                             <h4>welcome to my online portfolio.</h4>
                             <h5>Please enjoy getting to know me and my work.</h5>
                             <h6>I'm delighted that you're here  ^_^ </h6>
+                        </div>
                             <div style={{marginTop: "50px"}}><img src={me} alt="Matthew Williams" width="300px" height="400px"/></div>
                         </div>
-                        <div style={{marginTop: "50px"}}>
+                        <div className="center" style={{marginTop: "50px"}}>
                             <div className="carousel">
                             <h4 >Key technology</h4>
                                 <a className="carousel-item" href="#one!"><img src={reactLogo} alt="pg logo" width="150px" height="180px"/></a>

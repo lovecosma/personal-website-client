@@ -8,7 +8,7 @@ export const NavBar = (props) => {
            <nav className="nav">
                 <div className="nav-wrapper">
                     <a href="/" className="right brand-logo">Hello</a>
-                    <ul id="nav-mobile" className="left hide-on-med-and-down">
+                    <ul id="nav-mobile" className="left">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/aboutme">About Me</NavLink></li>
                         <li><NavLink to="/myapps">My Apps</NavLink></li>

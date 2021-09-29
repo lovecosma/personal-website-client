@@ -1,5 +1,8 @@
+
+
 .mobile-intro-section{
-    padding: 25px
+    padding: 50px;
+    margin-top: 10vh;
 }
 
 .about-me-button{
@@ -23,3 +26,11 @@
     /* width: "200px";
     height: "200px"; */
 }
+
+.intro-container{
+    padding: 15px;
+}
+
+
+
+
