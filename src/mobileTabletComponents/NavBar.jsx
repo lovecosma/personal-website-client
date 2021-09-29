@@ -7,17 +7,10 @@ import { NavLink } from "react-router-dom"
 export class NavBar extends React.Component{
 
     componentDidMount(){
-        document.addEventListener('DOMContentLoaded', function() {
             let elems = document.querySelectorAll('.sidenav');
             M.Sidenav.init(elems, {});
-          });
     }
-    componentDidUpdate(){
-        document.addEventListener('DOMContentLoaded', function() {
-            let elems = document.querySelectorAll('.sidenav');
-            M.Sidenav.init(elems, {});
-          });
-    }
+
 
     render(){
         return (
