@@ -124,6 +124,7 @@ export const AboutMe = ({history}) => {
                             backgroundSize: "cover",
                             backgroundImage: `url(${colorwheel})`,
                             marginLeft: "150px",
+                            marginTop: "35px",
                             borderRadius: "35px"
                         }}
                         alt="color wheel"/>  
