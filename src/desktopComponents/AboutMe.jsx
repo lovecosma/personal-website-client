@@ -86,7 +86,7 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
         </section>
-        <section className="about-me-shorter" style={{marginTop: "115px", padding: "15px"}}>
+        <section className="about-me-shorter" style={{marginTop: "50px", padding: "15px"}}>
             <div className="lower-about-me">
                <div className="about-me-text-2">
                    <h3>Teamwork and communication are universal tools.</h3>
@@ -130,10 +130,8 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
             </div>
-            <br></br>
         </section>
-        <br></br>
-        <section className="about-me">
+        <section className="about-me-shorter">
         <div className="about-me-text-3">
                 <div className="love-cosma-pictures">
                     <div className="music-video">

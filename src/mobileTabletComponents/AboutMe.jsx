@@ -130,9 +130,7 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
             </div>
-            <br></br>
         </section>
-        <br></br>
         <section className="about-me">
         <div className="about-me-text-3">
                 <div className="love-cosma-pictures">
