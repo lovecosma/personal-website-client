@@ -33,9 +33,9 @@ class Intro extends React.Component{
                         <div style={{marginTop: "50px"}}>
                             <div className="carousel">
                             <h4 >Key technology</h4>
-                                <a className="carousel-item" href="#one!"><img src={pgLogo} alt="pg logo" width="150px" height="180px"/></a>
+                                <a className="carousel-item" href="#one!"><img src={reactLogo} alt="pg logo" width="150px" height="180px"/></a>
                                 <a className="carousel-item" href="#two!"><img src={railsLogo} alt="rails logo" width="175px" height="175px"/></a>
-                                <a className="carousel-item" href="#three!"><img src={reactLogo} alt="react logo" width="150px" height="180px"/></a>
+                                <a className="carousel-item" href="#three!"><img src={pgLogo} alt="react logo" width="150px" height="180px"/></a>
                                 <a className="carousel-item" href="#four!"><img src={jsLogo} alt="javascript logo" width="150px" height="180px"/></a>
                                 <a className="carousel-item" href="#five!"><img src={htmlLogo} alt="html logo" width="150px" height="180px"/></a>
                                 <a className="carousel-item" href="#six!"><img src={awsLogo} alt="aws logo" width="150px" height="180px"/></a>
