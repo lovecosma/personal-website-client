@@ -17,7 +17,7 @@ export class NavBar extends React.Component{
         return (
             <div>
                 <div >
-                    <nav className="black" style={{padding: "15px", marginTop: "10px"}}><a href="/" className="nav-container"> <img data-target="slide-out" className="sidenav-trigger" src={menuIcon} width="7%" height="3%" alt="menu"/></a></nav>  
+                    <nav className="black" style={{padding: "15px"}}><a href="/" className="nav-container"> <img data-target="slide-out" className="sidenav-trigger" src={menuIcon} width="7%" height="3%" alt="menu"/></a></nav>  
                 </div>
                 <div>
                 <ul id="slide-out" className="sidenav black">
@@ -30,7 +30,7 @@ export class NavBar extends React.Component{
                 </div></li>
                 <li><NavLink className="white-text sidenav-close" to="/">Home</NavLink></li>
                 <li><NavLink className="white-text sidenav-close" to="/aboutme">About Me</NavLink></li>
-                <li><NavLink className="white-text sidenav-close" to="/myapps">My Apps</NavLink></li>                </ul>
+                <li><NavLink className="white-text sidenav-close" to="/myapps">My Apps</NavLink></li></ul>
                 </div>
          </div>
         )
