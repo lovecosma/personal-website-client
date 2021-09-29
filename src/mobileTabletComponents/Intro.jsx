@@ -22,14 +22,12 @@ class Intro extends React.Component{
         return (
             <section className="mobile-intro-section">
                         <div className="intro-container center">
-                        <div>
-                            <h1>Hello,</h1>
-                            <h2>My name is Matthew Williams</h2>
-                            <h3>I'm a software engineer based in Denver, CO</h3>
+                            <h4>Hello,</h4>
+                            <h4>My name is Matthew Williams</h4>
+                            <h4>I'm a software engineer based in Denver, CO</h4>
                             <h4>welcome to my online portfolio.</h4>
                             <h5>Please enjoy getting to know me and my work.</h5>
                             <h6>I'm delighted that you're here  ^_^ </h6>
-                        </div>
                             <div style={{marginTop: "50px"}}><img src={me} alt="Matthew Williams" width="300px" height="400px"/></div>
                         </div>
                         <div className="center" style={{marginTop: "50px"}}>
