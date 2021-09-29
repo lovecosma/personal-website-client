@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ComingSoon() {
     return (
-        <div  className="container white-text" style={{padding: "15px", marginTop: "25px"}}>
+        <div  className="container white-text" style={{padding: "15px", marginTop: "50px"}}>
         <p>Responsive Design in progress. Please visit on desktop for now.</p>
         <p style={{fontSize: "x-large"}} >Check out my repo <a href="https://github.com/lovecosma/personal-website-client" alt="repo" style={{fontSize: "x-large"}}>here</a></p>
         <p>Updated daily.</p>
