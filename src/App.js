@@ -28,6 +28,8 @@ const App = (props) => {
                 <MobileTabletRouter/>
               </div>
           )
+    } else {
+      return <div></div>
     }
 }
 
