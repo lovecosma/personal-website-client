@@ -2,9 +2,7 @@ import React from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
-import bugsquash from "../images/bugsquash.png"
 import colorwheel from "../images/colorwheel.png"
-import bloodflow from "../images/bloodflow.jpeg"
 import eredita from "../images/eredita.jpeg"
 import us from "../images/us.JPG"
 
@@ -105,16 +103,8 @@ export const AboutMe = ({history}) => {
                 <div className="about-me-pictures-2">
                     <div className="center" style={{padding: "40px"}}>
                         
-                        <div style={{
-                            width: "100%",
-                            height: "250px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${bugsquash})`,
-                            boxShadow: "0 0 8px 8px black inset"
-                        }}
-                        alt="bug squash"/> 
+                        <iframe width="100%" height="250px" alt="bug squash" src="https://www.youtube.com/embed/gDJIlFh2CmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
                         <br/>
                         <div id='color-wheel' style={{
                             width: "200px",
@@ -139,14 +129,15 @@ export const AboutMe = ({history}) => {
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="art-links">
-                    <div style={{
+                    {/* <div style={{
                             width: "125px",
                             height: "125px",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             backgroundImage: `url(${bloodflow})`
-                        }}/> 
+                        }}/>  */}
+                    <iframe alt="Bloodflow-Love Cosma" width="125px" height="125px" src="https://www.youtube.com/embed/GjAnHhoFSmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     
                     <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div style={{
@@ -198,6 +189,9 @@ export const AboutMe = ({history}) => {
                
                 </div>
                 <div  className="flatiron-projects">
+                    <div className="flatiron-project-container" >
+                        <iframe width="400" height="180" alt="Tarot CLI" src="https://www.youtube.com/embed/QgsngHujmtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
                     <div className="flatiron-project-container">
                         <iframe width="400" height="180" src="https://www.youtube.com/embed/U9pBMU9gYWA?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
@@ -208,7 +202,7 @@ export const AboutMe = ({history}) => {
                         <iframe width="400" height="180" src="https://www.youtube.com/embed/0Yy6UGNu1Zo?start=177" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="flatiron-project-container" >
-                        <iframe width="400" height="180" src="https://www.youtube.com/embed/W-xt8yufdNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="400" height="180" src="https://www.youtube.com/embed/W-xt8yufdNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="white-text center" style={{width: "100%"}}>
                         <button onClick={() => {
