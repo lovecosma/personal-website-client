@@ -44,7 +44,7 @@ export const AboutMe = ({history}) => {
                                 Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
                             </p> 
                        </div>
-                       <div className="about-me-smaller-photos">
+                       {/* <div className="about-me-smaller-photos"> */}
                         <iframe 
                             width="200" 
                             height="200" 
@@ -54,10 +54,12 @@ export const AboutMe = ({history}) => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen 
                         />
+                        <br></br>
                         <img src={grad} alt="Matthew with Samara" width="200px" height="200x"/>
-                        </div>  
-                       <div className="lsu-project-container">
-                           <div className='lsu-projects' >
+                        <br></br>
+                        {/* </div>   */}
+                       {/* <div className="lsu-project-container"> */}
+                           {/* <div className='lsu-projects' > */}
                            <iframe 
                                 width="300" 
                                 height="200" 
@@ -66,6 +68,8 @@ export const AboutMe = ({history}) => {
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen 
                             />
+                        <br></br>
+
                             <iframe 
                                 width="300" 
                                 height="200" 
@@ -75,10 +79,8 @@ export const AboutMe = ({history}) => {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen 
                             />
-                           </div>
-                           <div>
-                           </div>
-                        </div>  
+                           {/* </div> */}
+                        {/* </div>   */}
                         <div className="white-text center" >
                             <form action="https://soundcloud.com/user-184171124/sets" >
                                 <button type="submit" id="emdm-banner" >My Music from EMDM</button>
