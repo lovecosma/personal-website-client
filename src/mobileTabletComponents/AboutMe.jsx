@@ -20,7 +20,7 @@ export const AboutMe = ({history}) => {
                     <h2 >About Me</h2>
                 </div>
                 <div className="us-container">
-                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="100%" height="100%"/>                    
+                    <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="60%" height="60%"/>                    
                 </div>
                 <div className="upper-about-me">
               
