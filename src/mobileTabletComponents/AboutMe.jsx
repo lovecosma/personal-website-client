@@ -18,7 +18,7 @@ export const AboutMe = ({history}) => {
         <section className="about-me">
                 <h2 className="center">About Me</h2>
                 <div className="us-container">
-                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="50%" height="25%"/>                    
+                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="100%" height="100%"/>                    
                 </div>
                 <div className="upper-about-me">
               
