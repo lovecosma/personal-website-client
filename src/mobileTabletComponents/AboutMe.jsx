@@ -17,8 +17,8 @@ export const AboutMe = ({history}) => {
         <div className="about-me-container">
         <section className="about-me">
                 <h2 className="center">About Me</h2>
-                <div className="us-container center">
-                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="425px" height="550px"/>                    
+                <div className="us-container">
+                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="50%" height="25%"/>                    
                 </div>
                 <div className="upper-about-me">
               
@@ -50,7 +50,7 @@ export const AboutMe = ({history}) => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen 
                         />
-                        <img src={grad} alt="Matthew with Samara" width="200px" height="200x" style={{marginLeft: "25px"}}/>
+                        <img src={grad} alt="Matthew with Samara" width="200px" height="200x"/>
                         </div>  
                        <div className="lsu-project-container">
                            <div className='lsu-projects' >
@@ -75,7 +75,7 @@ export const AboutMe = ({history}) => {
                            <div>
                            </div>
                         </div>  
-                        <div className="white-text center" style={{width: "100%"}}>
+                        <div className="white-text center" >
                             <form action="https://soundcloud.com/user-184171124/sets" >
                                 <button type="submit" id="emdm-banner" >My Music from EMDM</button>
                             </form>
@@ -83,7 +83,7 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
         </section>
-        <section className="about-me-shorter" style={{marginTop: "115px", padding: "15px"}}>
+        <section className="about-me-shorter" >
         <div >
                    <h3>Teamwork and communication are universal tools.</h3>
                     <p>
@@ -152,7 +152,7 @@ export const AboutMe = ({history}) => {
                 </div>
             </div>
         </section>
-        <section className="about-me-shorter"  style={{marginTop: "115px", padding: "15px", height: "90vh"}}>
+        <section className="about-me-shorter" >
             <div className="flatiron-top">
                 <div className="flatiron-text">
                     <h3>From Flatiron School student to Flatiron School instructor.</h3>
