@@ -87,7 +87,7 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
         </section>
-        <section className="about-me-shorter" >
+        {/* <section className="about-me-shorter" >
         <div >
                    <h3>Teamwork and communication are universal tools.</h3>
                     <p>
@@ -202,7 +202,7 @@ export const AboutMe = ({history}) => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
     </div>
     )
 }
