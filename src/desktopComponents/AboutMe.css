@@ -51,6 +51,7 @@
 }
 
 .about-me-text-container{
+  width: 100%;
   margin-left: 50px;
   font-size: larger;
 }

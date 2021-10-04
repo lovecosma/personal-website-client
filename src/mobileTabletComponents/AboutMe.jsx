@@ -2,7 +2,6 @@ import React from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
-import bugsquash from "../images/bugsquash.png"
 import colorwheel from "../images/colorwheel.png"
 import bloodflow from "../images/bloodflow.jpeg"
 import eredita from "../images/eredita.jpeg"
@@ -17,26 +16,12 @@ export const AboutMe = ({history}) => {
     return (
         <div className="about-me-container">
         <section className="about-me">
-            <div className="center about-me-header">
-                <h2>About Me</h2>
-            </div>
+                <h2 className="center">About Me</h2>
+                <div className="us-container center">
+                        <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="425px" height="550px"/>                    
+                </div>
                 <div className="upper-about-me">
-                    <div className="us-container">
-                        <img className="us-photo" src={me} alt="Matthew's family" width="425px" height="550px"/>
-                        <br></br>
-                        <div className="about-me-smaller-photos">
-                        <iframe 
-                            width="200" 
-                            height="200" 
-                            src="https://www.youtube.com/embed/oiY8JZ4ikZY" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen 
-                        />
-                            <img src={grad} alt="Matthew with Samara" width="200px" height="200x"/>
-                        </div>
-                    </div>
+              
                     <div className='about-me-text-container'>
                        <div>
                             <h3> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h3>
@@ -55,6 +40,18 @@ export const AboutMe = ({history}) => {
                                 Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
                             </p> 
                        </div>
+                       <div className="about-me-smaller-photos">
+                        <iframe 
+                            width="200" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/oiY8JZ4ikZY" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen 
+                        />
+                        <img src={grad} alt="Matthew with Samara" width="200px" height="200x" style={{marginLeft: "25px"}}/>
+                        </div>  
                        <div className="lsu-project-container">
                            <div className='lsu-projects' >
                            <iframe 
@@ -87,8 +84,7 @@ export const AboutMe = ({history}) => {
                 </div>
         </section>
         <section className="about-me-shorter" style={{marginTop: "115px", padding: "15px"}}>
-            <div className="lower-about-me">
-               <div className="about-me-text-2">
+        <div >
                    <h3>Teamwork and communication are universal tools.</h3>
                     <p>
                         After graduating college in 2017, I moved back to Georgia near my immediate family. I 
@@ -101,35 +97,21 @@ export const AboutMe = ({history}) => {
                         At this time, I also began practicing more advanced topics like algorithms, data structures, and system design. I knew I wanted to make use of my skills as a developer in my work environment because I loved learning about 
                         it.
                     </p>
-                </div> 
-                <div className="about-me-pictures-2">
-                    <div className="center" style={{padding: "40px"}}>
-                        
-                        <div style={{
-                            width: "100%",
-                            height: "250px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${bugsquash})`,
-                            boxShadow: "0 0 8px 8px black inset"
-                        }}
-                        alt="bug squash"/> 
-                        <br/>
-                        <div id='color-wheel' style={{
-                            width: "200px",
-                            height: "200px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${colorwheel})`,
-                            marginLeft: "150px",
-                            borderRadius: "35px"
-                        }}
-                        alt="color wheel"/>  
-                    </div>
-                </div>
-            </div>
+        </div> 
+        <div className="lower-about-me">      
+                <iframe width="%" height="250px" alt="bug squash" src="https://www.youtube.com/embed/gDJIlFh2CmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <div id='color-wheel' style={{
+                    width: "200px",
+                    height: "200px",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    backgroundImage: `url(${colorwheel})`,
+                    marginTop: "35px",
+                    borderRadius: "35px"
+                }}
+                alt="color wheel"/>  
+        </div>
         </section>
         <section className="about-me">
         <div className="about-me-text-3">

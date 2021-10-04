@@ -3,6 +3,7 @@ import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
 import colorwheel from "../images/colorwheel.png"
+import bloodflow from "../images/bloodflow.jpeg"
 import eredita from "../images/eredita.jpeg"
 import us from "../images/us.JPG"
 
@@ -129,15 +130,15 @@ export const AboutMe = ({history}) => {
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="art-links">
-                    {/* <div style={{
+                    <div style={{
                             width: "125px",
                             height: "125px",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             backgroundImage: `url(${bloodflow})`
-                        }}/>  */}
-                    <iframe alt="Bloodflow-Love Cosma" width="125px" height="125px" src="https://www.youtube.com/embed/GjAnHhoFSmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        }}/> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GjAnHhoFSmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     
                     <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div style={{
