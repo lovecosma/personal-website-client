@@ -14,9 +14,11 @@ export const AboutMe = ({history}) => {
         }
     })
     return (
-        <div className="about-me-container">
+        <div className="about-me-container center">
         <section className="about-me">
-                <h2 className="center">About Me</h2>
+                <div className="header" >
+                    <h2 >About Me</h2>
+                </div>
                 <div className="us-container">
                         <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="100%" height="100%"/>                    
                 </div>
@@ -24,7 +26,9 @@ export const AboutMe = ({history}) => {
               
                     <div className='about-me-text-container'>
                        <div>
-                            <h3> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h3>
+                           <div className="header">
+                                <h3> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h3>
+                           </div>
                             <p>
                                 My father was stationed there in the military at the time. Traveling long distances would become a theme in my life. After 
                                 leaving Germany at 2 years old, my family relocated back to my parents' hometown of New Orleans, LA. Over the next 16 years, 

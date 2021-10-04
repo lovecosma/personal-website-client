@@ -138,7 +138,7 @@ export const AboutMe = ({history}) => {
                             backgroundSize: "cover",
                             backgroundImage: `url(${bloodflow})`
                         }}/> 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GjAnHhoFSmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    
                     
                     <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div style={{
