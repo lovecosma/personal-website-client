@@ -25,10 +25,10 @@ class Intro extends React.Component{
                             <h4>Hello,</h4>
                             <h4>My name is Matthew Williams</h4>
                             <h4>I'm a software engineer based in Denver, CO</h4>
+                            <div className="center" style={{marginTop: "50px"}}><img src={me} alt="Matthew Williams" width="60%" height="65%"/></div>
                             <h4>welcome to my online portfolio.</h4>
                             <h5>Please enjoy getting to know me and my work.</h5>
                             <h6>I'm delighted that you're here  ^_^ </h6>
-                            <div className="center" style={{marginTop: "50px"}}><img src={me} alt="Matthew Williams" width="60%" height="65%"/></div>
                         </div>
                         <div className="center" style={{marginTop: "50px"}}>
                             <div className="carousel">
