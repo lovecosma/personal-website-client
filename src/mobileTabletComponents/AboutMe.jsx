@@ -3,15 +3,22 @@ import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
 import colorwheel from "../images/colorwheel.png"
-import bloodflow from "../images/bloodflow.jpeg"
 import eredita from "../images/eredita.jpeg"
-import us from "../images/us.JPG"
-
+import cosmicharmony from "../images/cosmicharmony.JPG"
+import thinker from "../images/thinker.JPG"
+import lgbt from "../images/lgbt.jpg"
+import newsletter from "../images/newsletter.jpg"
+import M from "materialize-css"
 export const AboutMe = ({history}) => {
     window.addEventListener("scroll", () => {
         if(document.getElementById("color-wheel")){
         document.getElementById("color-wheel").style.transform = "rotate("+window.pageYOffset+"deg)"
         }
+    })
+
+   document.addEventListener("DOMContentLoaded", () =>  {
+       M.AutoInit()
+       document.querySelector(".carousel").style = "height: 275px"
     })
     return (
         <div className="about-me-container center">
@@ -20,7 +27,7 @@ export const AboutMe = ({history}) => {
                     <h2 >About Me</h2>
                 </div>
                 <div className="header">
-                    <h2> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h2>
+                    <h5> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h5>
                 </div>
                 <p>
                     My father was stationed there in the military at the time. Traveling long distances would become a theme in my life. After 
@@ -73,7 +80,7 @@ export const AboutMe = ({history}) => {
                     </form>
                 </div> 
                 <div >
-                    <h3>Teamwork and communication are universal tools.</h3>
+                    <h5>Teamwork and communication are universal tools.</h5>
                 <p>
                     After graduating college in 2017, I moved back to Georgia near my immediate family. I 
                     began working at Best Buy as a part-time computer sales consultant. I collaborated across over seven different departments and over 50 associates to deliver a world-class
@@ -100,33 +107,28 @@ export const AboutMe = ({history}) => {
                 }}
                 alt="color wheel"/> 
                  <div>
-                    <h3>Hardwork, dedication, and optimism will bring you places.</h3>
+                    <h5>Hardwork, dedication, and optimism will bring you places.</h5>
                     <p>
                         Networking with the residents of Savannah, GA  Best Buy helped me launch a career as a local artist and musician at the beginning of 2019. 
                         During this time, I performed and produced two tracks as my artist's persona, Love Cosma.
                     </p> 
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe id="imaginary-storms-music-video" width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <div class="carousel">
+                        <a className="carousel-item" href=""><img src={eredita} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href=""><img src={thinker} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href=""><img src={cosmicharmony} width="200px" height="250px" /></a>
+                    </div>
                     <p>
                         I appeared live on the local radio, gigged for venues all around town, and sold my graphic art prints to commercial enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 
                         I wanted a career that I would still love to do, but that would be more stable and reliable for my family's security. In April 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program to break into the technology industry. 
                     </p>
                 </div>
                 
-                <h3>From Flatiron School student to Flatiron School instructor.</h3>
+                <h5>From Flatiron School student to Flatiron School instructor.</h5>
                 <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
                     industry. I picked up so many tips and tricks for learning and growing as a developer. 
                 </p>  
-                <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <div style={{
-                        width: "125px",
-                        height: "125px",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        backgroundImage: `url(${eredita})`,
-                        marginLeft: "auto",
-                        marginRight: "auto"
-                }}/>   
                 <p>
                     I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
                     I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
