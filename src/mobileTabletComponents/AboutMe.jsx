@@ -1,6 +1,7 @@
 import React from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
+import us from "../images/us.JPG"
 import grad from "../images/LSUgraduation.jpeg"
 import colorwheel from "../images/colorwheel.png"
 import eredita from "../images/eredita.jpeg"
@@ -75,9 +76,7 @@ export const AboutMe = ({history}) => {
                     allowFullScreen 
                 />
                 <div className="white-text center" >
-                    <form action="https://soundcloud.com/user-184171124/sets" >
-                        <button type="submit" id="emdm-banner" >My Music from EMDM</button>
-                    </form>
+                    <a href="https://soundcloud.com/user-184171124/sets">My Music from EMDM</a>
                 </div> 
                 <div >
                     <h5>Teamwork and communication are universal tools.</h5>
@@ -113,7 +112,7 @@ export const AboutMe = ({history}) => {
                         During this time, I performed and produced two tracks as my artist's persona, Love Cosma.
                     </p> 
                     <iframe id="imaginary-storms-music-video" width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <div class="carousel">
+                    <div className="carousel">
                         <a className="carousel-item" href=""><img src={eredita} width="200px" height="250px" /></a>
                         <a className="carousel-item" href=""><img src={thinker} width="200px" height="250px" /></a>
                         <a className="carousel-item" href=""><img src={cosmicharmony} width="200px" height="250px" /></a>
@@ -128,10 +127,28 @@ export const AboutMe = ({history}) => {
                 <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
                     industry. I picked up so many tips and tricks for learning and growing as a developer. 
                 </p>  
+                    <iframe width="200" height="120" src="https://www.youtube.com/embed/0Yy6UGNu1Zo?start=177" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <br></br>
+                    <iframe width="200" height="120" src="https://www.youtube.com/embed/W-xt8yufdNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <br></br>
                 <p>
                     I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
                     I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
                 </p>
+                    <iframe width="200" height="120" src="https://www.youtube.com/embed/U9pBMU9gYWA?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe width="200" height="120" src="https://www.youtube.com/embed/Onyck4wJM5U?start=97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <span><h5>  Thanks so much for tuning into my story. Keeping these
+                    memories close is a huge motivation that propels me forward everyday.</h5></span>
+                    <div style={{
+                            width: "100%",
+                            height: "200px",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "contain",
+                            backgroundImage: `url(${us})`,
+                            boxShadow: "0 0 8px 8px black inset"
+                        }}
+                        />
             </div> 
    
         {/* <section className="about-me-shorter" >
