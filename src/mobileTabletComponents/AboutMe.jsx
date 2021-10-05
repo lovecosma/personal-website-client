@@ -113,7 +113,6 @@ export const AboutMe = ({history}) => {
                         During this time, I performed and produced two tracks as my artist's persona, Love Cosma.
                     </p> 
                     <iframe id="imaginary-storms-music-video" width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="carousel">
                         <a className="carousel-item" href=""><img src={eredita} width="200px" height="250px" /></a>
                         <a className="carousel-item" href=""><img src={thinker} width="200px" height="250px" /></a>
@@ -124,7 +123,7 @@ export const AboutMe = ({history}) => {
                         I wanted a career that I would still love to do, but that would be more stable and reliable for my family's security. In April 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program to break into the technology industry. 
                     </p>
                 </div>
-                
+                <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <h5>From Flatiron School student to Flatiron School instructor.</h5>
                 <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
                     industry. I picked up so many tips and tricks for learning and growing as a developer. 
