@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
