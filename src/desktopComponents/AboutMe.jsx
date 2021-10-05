@@ -16,10 +16,10 @@ export const AboutMe = ({history}) => {
         document.getElementById("color-wheel").style.transform = "rotate("+window.pageYOffset+"deg)"
         }
     })
-    document.addEventListener("DOMContentLoaded", () =>  {
-        M.AutoInit()
-        document.querySelector(".carousel").style = "height: 275px"
-     })
+    useEffect(()=> {
+        var elems = document.querySelectorAll('.carousel');
+        M.Carousel.init(elems, {height: "275px"});  
+    })
     return (
         <div className="about-me-container">
         <section className="about-me">

@@ -16,10 +16,8 @@ export const AboutMe = ({history}) => {
     })
 
     useEffect(()=> {
-        M.AutoInit()
-        document.addEventListener("DOMContentLoaded", () =>  {
-            document.querySelector(".carousel").style = "height: 275px"
-         })    
+        var elems = document.querySelectorAll('.carousel');
+        M.Carousel.init(elems, {height: "275px"});  
     })
 
    
