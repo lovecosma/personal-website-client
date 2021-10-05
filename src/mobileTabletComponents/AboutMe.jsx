@@ -19,21 +19,32 @@ export const AboutMe = ({history}) => {
                 <div className="header" >
                     <h2 >About Me</h2>
                 </div>
-                <div className="us-container">
-                    <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="60%" height="60%"/>                    
+                <div className="header">
+                    <h5> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h5>
                 </div>
-                <div className="upper-about-me">
+                <p>
+                    My father was stationed there in the military at the time. Traveling long distances would become a theme in my life. After 
+                    leaving Germany at 2 years old, my family relocated back to my parents' hometown of New Orleans, LA. Over the next 16 years, 
+                    I would live in Louisiana, Virginia,  Georgia, and Hawaii.
+                </p>
+                <div className="right-child">
+                    <img className="us-photo" src={me} alt="Matthew's at LSU Concert" width="50%" height="60%"/>                    
+                </div>
+                <p>
+                    At an early age, I developed an interest in music which ignited into a full passion as I grew older. 
+                    This passion led me to LSU's brand new Experimental Music and Digital Media Programming for Art and Engineering program. 
+                    It was here that I cultivated a taste for coding a problem-solving. I learned the basics of object-oriented programming, 
+                    embedded hardware, and experimental sound synthesis. In 2017, my team exhibited a game, Synth Arena, which we created together 
+                    using Unity (video game engine) and GitHub at Baton Rouge's Red Stick Festival. I was also awarded Best Music and Sound Design by 
+                    LSU's Digital Art and Design Association for a production entitled "The Bone" for LSU's 72-hr Animation Jam of 2017. 
+                    Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
+                </p> 
+                <div className="flex-parent">
               
                     <div className='about-me-text-container'>
-                       <div>
-                           <div className="header">
-                                <h3> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h3>
-                           </div>
-                            <p>
-                                My father was stationed there in the military at the time. Traveling long distances would become a theme in my life. After 
-                                leaving Germany at 2 years old, my family relocated back to my parents' hometown of New Orleans, LA. Over the next 16 years, 
-                                I would live in Louisiana, Virginia,  Georgia, and Hawaii.
-                            </p>
+                       <div className="left-child">
+                      
+                          
                             <p>
                                 At an early age, I developed an interest in music which ignited into a full passion as I grew older. 
                                 This passion led me to LSU's brand new Experimental Music and Digital Media Programming for Art and Engineering program. 
@@ -43,6 +54,8 @@ export const AboutMe = ({history}) => {
                                 LSU's Digital Art and Design Association for a production entitled "The Bone" for LSU's 72-hr Animation Jam of 2017. 
                                 Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
                             </p> 
+                       </div>
+                    </div>
                        </div>
                        {/* <div className="about-me-smaller-photos"> */}
                         <iframe 
@@ -86,8 +99,6 @@ export const AboutMe = ({history}) => {
                                 <button type="submit" id="emdm-banner" >My Music from EMDM</button>
                             </form>
                         </div>
-                    </div>
-                </div>
         </section>
         {/* <section className="about-me-shorter" >
         <div >
