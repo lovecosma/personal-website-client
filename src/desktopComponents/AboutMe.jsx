@@ -162,12 +162,13 @@ export const AboutMe = ({history}) => {
                 <div className="flatiron-text">
                     <h3>From Flatiron School student to Flatiron School instructor.</h3>
                     <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
-                        industry. I picked up so many tips and tricks for learning and growing as a developer. I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
-                        I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
+                        industry. I picked up so many tips and tricks for learning and growing as a developer. 
                     </p>
                     <p>
-                        I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the industry. I picked up so many tips and tricks for learning and growing as a developer. I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a position as a Technical Coach with Flatiron School shortly before I graduated. 
-                        I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Engineering Team. 
+                        I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
+                        I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
+                    </p>
+                   
                         <div style={{
                             width: "100%",
                             height: "300px",
@@ -180,7 +181,6 @@ export const AboutMe = ({history}) => {
                         />
                         <span><h4>  Thanks so much for tuning into my story. Keeping these
                         memories close is a huge motivation that propels me forward everyday.</h4></span>
-                    </p>
                
                 </div>
                 <div  className="flatiron-projects">
