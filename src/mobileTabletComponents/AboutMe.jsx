@@ -20,7 +20,7 @@ export const AboutMe = ({history}) => {
                     <h2 >About Me</h2>
                 </div>
                 <div className="header">
-                    <h5> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h5>
+                    <h2> My story actually begins at my birth in Wiesbaden, Hesse, Germany.</h2>
                 </div>
                 <p>
                     My father was stationed there in the military at the time. Traveling long distances would become a theme in my life. After 
@@ -33,90 +33,59 @@ export const AboutMe = ({history}) => {
                 <p>
                     At an early age, I developed an interest in music which ignited into a full passion as I grew older. 
                     This passion led me to LSU's brand new Experimental Music and Digital Media Programming for Art and Engineering program. 
-                    It was here that I cultivated a taste for coding a problem-solving. I learned the basics of object-oriented programming, 
-                    embedded hardware, and experimental sound synthesis. In 2017, my team exhibited a game, Synth Arena, which we created together 
+                    It was here that I cultivated a taste for coding a problem-solving. 
+                </p> 
+                <iframe 
+                    width="200" 
+                    height="200" 
+                    src="https://www.youtube.com/embed/oiY8JZ4ikZY" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen 
+                />
+                <p>
+                    At LSU learned the basics of object-oriented programming, embedded hardware, and experimental sound synthesis. In 2017, my team exhibited a game, Synth Arena, which we created together 
                     using Unity (video game engine) and GitHub at Baton Rouge's Red Stick Festival. I was also awarded Best Music and Sound Design by 
                     LSU's Digital Art and Design Association for a production entitled "The Bone" for LSU's 72-hr Animation Jam of 2017. 
                     Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
-                </p> 
-                <div className="flex-parent">
-              
-                    <div className='about-me-text-container'>
-                       <div className="left-child">
-                      
-                          
-                            <p>
-                                At an early age, I developed an interest in music which ignited into a full passion as I grew older. 
-                                This passion led me to LSU's brand new Experimental Music and Digital Media Programming for Art and Engineering program. 
-                                It was here that I cultivated a taste for coding a problem-solving. I learned the basics of object-oriented programming, 
-                                embedded hardware, and experimental sound synthesis. In 2017, my team exhibited a game, Synth Arena, which we created together 
-                                using Unity (video game engine) and GitHub at Baton Rouge's Red Stick Festival. I was also awarded Best Music and Sound Design by 
-                                LSU's Digital Art and Design Association for a production entitled "The Bone" for LSU's 72-hr Animation Jam of 2017. 
-                                Through these projects, I learned that anything is possible with teamwork and perseverance in the face of complex goals.
-                            </p> 
-                       </div>
-                    </div>
-                       </div>
-                       {/* <div className="about-me-smaller-photos"> */}
-                        <iframe 
-                            width="200" 
-                            height="200" 
-                            src="https://www.youtube.com/embed/oiY8JZ4ikZY" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen 
-                        />
-                        <br></br>
-                        <img src={grad} alt="Matthew with Samara" width="200px" height="200x"/>
-                        <br></br>
-                        {/* </div>   */}
-                       {/* <div className="lsu-project-container"> */}
-                           {/* <div className='lsu-projects' > */}
-                           <iframe 
-                                width="300" 
-                                height="200" 
-                                src="https://www.youtube.com/embed/_Qicr8nBoHg" 
-                                title="YouTube video player" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowFullScreen 
-                            />
-                        <br></br>
-
-                            <iframe 
-                                width="300" 
-                                height="200" 
-                                src="https://www.youtube.com/embed/FPJPKSbf3CI" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowFullScreen 
-                            />
-                           {/* </div> */}
-                        {/* </div>   */}
-                        <div className="white-text center" >
-                            <form action="https://soundcloud.com/user-184171124/sets" >
-                                <button type="submit" id="emdm-banner" >My Music from EMDM</button>
-                            </form>
-                        </div>
-        </section>
-        {/* <section className="about-me-shorter" >
-        <div >
-                   <h3>Teamwork and communication are universal tools.</h3>
-                    <p>
-                        After graduating college in 2017, I moved back to Georgia near my immediate family. I 
-                        began working at Best Buy as a part-time computer sales consultant. I collaborated across over seven different departments and over 50 associates to deliver a world-class
-                        experience to every single one of my customers. I was honored for having the highest revenue in the district during Q3 of the fiscal year of 2017-2018. My NPS rating averaged above 90% 
-                        throughout my career at Best Buy, which spanned three promotions, ending at Smart Home Expert. 
-                    </p>
-                    <p>
-                        I enjoyed the work I did with my team at Best Buy and I was always coding independently in my free time. I created a few apps that dealt with DOM manipulation, animating on a canvas and object-oriented Javascript. 
-                        At this time, I also began practicing more advanced topics like algorithms, data structures, and system design. I knew I wanted to make use of my skills as a developer in my work environment because I loved learning about 
-                        it.
-                    </p>
-        </div> 
-        <div className="lower-about-me">      
+                </p>
+                <iframe 
+                    width="300" 
+                    height="200" 
+                    src="https://www.youtube.com/embed/_Qicr8nBoHg" 
+                    title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen 
+                />
+                <iframe 
+                    width="300" 
+                    height="200" 
+                    src="https://www.youtube.com/embed/FPJPKSbf3CI" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen 
+                />
+                <div className="white-text center" >
+                    <form action="https://soundcloud.com/user-184171124/sets" >
+                        <button type="submit" id="emdm-banner" >My Music from EMDM</button>
+                    </form>
+                </div> 
+                <div >
+                    <h3>Teamwork and communication are universal tools.</h3>
+                <p>
+                    After graduating college in 2017, I moved back to Georgia near my immediate family. I 
+                    began working at Best Buy as a part-time computer sales consultant. I collaborated across over seven different departments and over 50 associates to deliver a world-class
+                    experience to every single one of my customers. I was honored for having the highest revenue in the district during Q3 of the fiscal year of 2017-2018. My NPS rating averaged above 90% 
+                    throughout my career at Best Buy, which spanned three promotions, ending at Smart Home Expert. 
+                </p>
                 <iframe width="%" height="250px" alt="bug squash" src="https://www.youtube.com/embed/gDJIlFh2CmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <p>
+                    I enjoyed the work I did with my team at Best Buy and I was always coding independently in my free time. I created a few apps that dealt with DOM manipulation, animating on a canvas and object-oriented Javascript. 
+                    At this time, I also began practicing more advanced topics like algorithms, data structures, and system design. I knew I wanted to make use of my skills as a developer in my work environment because I loved learning about 
+                    it.
+                </p>
                 <div id='color-wheel' style={{
                     width: "200px",
                     height: "200px",
@@ -125,10 +94,49 @@ export const AboutMe = ({history}) => {
                     backgroundSize: "cover",
                     backgroundImage: `url(${colorwheel})`,
                     marginTop: "35px",
-                    borderRadius: "35px"
+                    borderRadius: "35px",
+                    marginLeft: "auto",
+                    marginRight: "auto"
                 }}
-                alt="color wheel"/>  
-        </div>
+                alt="color wheel"/> 
+                 <div>
+                    <h3>Hardwork, dedication, and optimism will bring you places.</h3>
+                    <p>
+                        Networking with the residents of Savannah, GA  Best Buy helped me launch a career as a local artist and musician at the beginning of 2019. 
+                        During this time, I performed and produced two tracks as my artist's persona, Love Cosma.
+                    </p> 
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <p>
+                        I appeared live on the local radio, gigged for venues all around town, and sold my graphic art prints to commercial enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 
+                        I wanted a career that I would still love to do, but that would be more stable and reliable for my family's security. In April 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program to break into the technology industry. 
+                    </p>
+                </div>
+                
+                <h3>From Flatiron School student to Flatiron School instructor.</h3>
+                <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
+                    industry. I picked up so many tips and tricks for learning and growing as a developer. 
+                </p>  
+                <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <div style={{
+                        width: "125px",
+                        height: "125px",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover",
+                        backgroundImage: `url(${eredita})`,
+                        marginLeft: "auto",
+                        marginRight: "auto"
+                }}/>   
+                <p>
+                    I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
+                    I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
+                </p>
+            </div> 
+   
+        {/* <section className="about-me-shorter" >
+ 
+        <div className="lower-about-me">      
+                
         </section>
         <section className="about-me">
         <div className="about-me-text-3">
@@ -216,6 +224,7 @@ export const AboutMe = ({history}) => {
                 </div>
             </div>
         </section> */}
+    </section>
     </div>
     )
 }
