@@ -2,14 +2,12 @@ import React from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import us from "../images/us.JPG"
-import grad from "../images/LSUgraduation.jpeg"
 import colorwheel from "../images/colorwheel.png"
 import eredita from "../images/eredita.jpeg"
 import cosmicharmony from "../images/cosmicharmony.JPG"
 import thinker from "../images/thinker.JPG"
-import lgbt from "../images/lgbt.jpg"
-import newsletter from "../images/newsletter.jpg"
 import M from "materialize-css"
+
 export const AboutMe = ({history}) => {
     window.addEventListener("scroll", () => {
         if(document.getElementById("color-wheel")){
@@ -113,9 +111,9 @@ export const AboutMe = ({history}) => {
                     </p> 
                     <iframe id="imaginary-storms-music-video" width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div className="carousel">
-                        <a className="carousel-item" href=""><img src={eredita} width="200px" height="250px" /></a>
-                        <a className="carousel-item" href=""><img src={thinker} width="200px" height="250px" /></a>
-                        <a className="carousel-item" href=""><img src={cosmicharmony} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href="/"><img alt="Eredita - Commissioned Artwork" src={eredita} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href="/"><img alt="Thinker" src={thinker} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href="/"><img alt="Cosmic Harmony" src={cosmicharmony} width="200px" height="250px" /></a>
                     </div>
                     <p>
                         I appeared live on the local radio, gigged for venues all around town, and sold my graphic art prints to commercial enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 

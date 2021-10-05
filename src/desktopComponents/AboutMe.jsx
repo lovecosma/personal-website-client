@@ -3,9 +3,12 @@ import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import grad from "../images/LSUgraduation.jpeg"
 import colorwheel from "../images/colorwheel.png"
-import bloodflow from "../images/bloodflow.jpeg"
 import eredita from "../images/eredita.jpeg"
 import us from "../images/us.JPG"
+import thinker from "../images/thinker.JPG"
+import cosmicharmony from "../images/cosmicharmony.JPG"
+import M from "materialize-css"
+
 
 export const AboutMe = ({history}) => {
     window.addEventListener("scroll", () => {
@@ -13,6 +16,10 @@ export const AboutMe = ({history}) => {
         document.getElementById("color-wheel").style.transform = "rotate("+window.pageYOffset+"deg)"
         }
     })
+    document.addEventListener("DOMContentLoaded", () =>  {
+        M.AutoInit()
+        document.querySelector(".carousel").style = "height: 275px"
+     })
     return (
         <div className="about-me-container">
         <section className="about-me">
@@ -130,25 +137,12 @@ export const AboutMe = ({history}) => {
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     <div className="art-links">
-                    <div style={{
-                            width: "125px",
-                            height: "125px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${bloodflow})`
-                        }}/> 
-                    
-                    
-                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <div style={{
-                            width: "125px",
-                            height: "125px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${eredita})`
-                        }}/> 
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    <div className="carousel">
+                        <a className="carousel-item" href="/"><img alt="Eredita - Commissoned Artwork" src={eredita} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href="/"><img alt="Thinker" src={thinker} width="200px" height="250px" /></a>
+                        <a className="carousel-item" href="/"><img alt="Cosmic Harmony" src={cosmicharmony} width="200px" height="250px" /></a>
                     </div>
                 </div>
                 <div className="love-cosma-text">
