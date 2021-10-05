@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./AboutMe.css"
 import me from "../images/me.jpeg"
 import us from "../images/us.JPG"
@@ -15,13 +15,16 @@ export const AboutMe = ({history}) => {
         }
     })
 
-   document.addEventListener("DOMContentLoaded", () =>  {
-       M.AutoInit()
-       document.querySelector(".carousel").style = "height: 275px"
+    useEffect(()=> {
+        M.AutoInit()
+        document.addEventListener("DOMContentLoaded", () =>  {
+            document.querySelector(".carousel").style = "height: 275px"
+         })    
     })
+
+   
     return (
-        <div className="about-me-container center">
-        <section className="about-me">
+        <section className="about-me center">
                 <div className="header" >
                     <h2 >About Me</h2>
                 </div>
@@ -148,99 +151,6 @@ export const AboutMe = ({history}) => {
                         }}
                         />
             </div> 
-   
-        {/* <section className="about-me-shorter" >
- 
-        <div className="lower-about-me">      
-                
-        </section>
-        <section className="about-me">
-        <div className="about-me-text-3">
-                <div className="love-cosma-pictures">
-                    <div className="music-video">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hcXohBUeFTY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
-                    <div className="art-links">
-                    <div style={{
-                            width: "125px",
-                            height: "125px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${bloodflow})`
-                        }}/> 
-                    
-                    <iframe width="200" height="125" src="https://www.youtube.com/embed/f5QvJd-QgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <div style={{
-                            width: "125px",
-                            height: "125px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            backgroundImage: `url(${eredita})`
-                        }}/> 
-                    </div>
-                </div>
-                <div className="love-cosma-text">
-                   <div className='love-cosma-text-container'>
-                    <h3>Hardwork, dedication, and optimism will bring you places.</h3>
-                        <p>
-                            Networking with the residents of Savannah, GA  Best Buy helped me launch a career as a local artist and musician at the beginning of 2019. 
-                            During this time, I performed and produced two tracks as my artist's persona, Love Cosma. I appeared live on the local radio, gigged for venues all around town, and sold my graphic art prints to commercial enterprises and as clothing through an online retailer. I adored flexing my creative muscle and gained some inspiring success from it, however, 
-                            I wanted a career that I would still love to do, but that would be more stable and reliable for my family's security. In April 2020, I enrolled in Flatiron School in the Full-stack Software Engineering Program to break into the technology industry. 
-                        </p>
-                   </div>
-                </div>
-            </div>
-        </section>
-        <section className="about-me-shorter" >
-            <div className="flatiron-top">
-                <div className="flatiron-text">
-                    <h3>From Flatiron School student to Flatiron School instructor.</h3>
-                    <p> I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the 
-                        industry. I picked up so many tips and tricks for learning and growing as a developer. I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a postion as a Technical Coach with Flatiron School shortly before I graduated. 
-                        I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Enginnering Team. 
-                    </p>
-                    <p>
-                        I found Flatiron School to be the perfect environment for me to grow as a developer. I supplemented my knowledge of multimedia interaction with full-stack development skills. Most importantly, studying at Flatiron School put me in a community where I could network with others in the industry. I picked up so many tips and tricks for learning and growing as a developer. I started to frequently meet with other students to help debug their code and reclarify major concepts in my own words. Eventually, I caught the eye of other instructors in the organization. I was offered a position as a Technical Coach with Flatiron School shortly before I graduated. 
-                        I simultaneously worked as a Technical Coach with Flatiron School and an Associate Software Engineer with Infosys for a few months until I was offered a full-time position at Flatiron School as an Instructor for the Software Engineering Team. 
-                        <div style={{
-                            width: "100%",
-                            height: "300px",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "contain",
-                            backgroundImage: `url(${us})`,
-                            boxShadow: "0 0 8px 8px black inset"
-                        }}
-                        />
-                        <span><h4>  Thanks so much for tuning into my story. Keeping these
-                        memories close is a huge motivation that propels me forward everyday.</h4></span>
-                    </p>
-               
-                </div>
-                <div  className="flatiron-projects">
-                    <div className="flatiron-project-container">
-                        <iframe width="400" height="180" src="https://www.youtube.com/embed/U9pBMU9gYWA?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
-                    <div className="flatiron-project-container" >
-                        <iframe width="400" height="180" src="https://www.youtube.com/embed/Onyck4wJM5U?start=97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
-                    <div className="flatiron-project-container" >
-                        <iframe width="400" height="180" src="https://www.youtube.com/embed/0Yy6UGNu1Zo?start=177" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
-                    <div className="flatiron-project-container" >
-                        <iframe width="400" height="180" src="https://www.youtube.com/embed/W-xt8yufdNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
-                    <div className="white-text center" style={{width: "100%"}}>
-                        <button onClick={() => {
-                            history.push("/myapps")
-                        }} id="emdm-banner" >All of my Apps</button>
-                    </div>
-                </div>
-            </div>
-        </section> */}
     </section>
-    </div>
     )
 }
