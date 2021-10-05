@@ -8,7 +8,7 @@ import ComingSoon from "./ComingSoon"
 import { AboutMe } from './AboutMe'
 export const MobileTabletRouter = () => {
     return (
-        <div className="container white-text">
+        <div className="white-text">
             <Router>
                 <NavBar/>
                 <Switch>
