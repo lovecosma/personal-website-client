@@ -40,7 +40,7 @@ export const AboutMe = ({history}) => {
                 <p>
                     At an early age, I developed an interest in music which ignited into a full passion as I grew older. 
                     This passion led me to LSU's brand new Experimental Music and Digital Media Programming for Art and Engineering program. 
-                    It was here that I cultivated a taste for coding a problem-solving. 
+                    It was here that I cultivated a taste for coding and problem-solving. 
                 </p> 
                 <iframe 
                     width="200" 
